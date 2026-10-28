@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Generated data
+data/
+*.csv
+*.parquet
+*.dump
+
+# Power BI local cache
+*.pbix.tmp
+.pbi/
+**/.pbi/localSettings.json
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
+*.log
